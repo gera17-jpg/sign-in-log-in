@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <h2>Sign Up!</h2>
@@ -9,10 +9,10 @@
       <label for ="username">Username</label> <br>
       <input id ="username" type = "text" name="" value=""><br><br>
       <label for ="password">Password</label> <br>
-      <input id ="password" type = "text" name="" value=""><br>
+      <input id ="password" type = "text" name="" value="" pattern="(6,15)" title="Password must be 6-15 alpha numeric characters wih special symbols like !,@,#,$"><br>
       <a href = "#">forgot password?</a><br><br>
       <input id ="submit" type = "submit" name="" value="Submit"> &nbsp &nbsp
-      <button><a class="sign-button"href="sign-up.html">Sign-up</a></button>
+      <button><a href="sign-up.html" class="no-dec">Sign-up</a></button>
     </form>
   </body>
 </html>
